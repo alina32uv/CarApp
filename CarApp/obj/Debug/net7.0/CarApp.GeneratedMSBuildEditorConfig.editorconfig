@@ -1,0 +1,293 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CarApp
+build_property.RootNamespace = CarApp
+build_property.ProjectDir = C:\Users\Alina\Desktop\Test\CarApp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\Alina\Desktop\Test\CarApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Account/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Body/Views/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9keVxWaWV3c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Body/Views/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9keVxWaWV3c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Body/Views/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9keVxWaWV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Body/Views/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9keVxWaWV3c1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Brands/Views/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmRzXFZpZXdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Brands/Views/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmRzXFZpZXdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Brands/Views/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmRzXFZpZXdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Brands/Views/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmRzXFZpZXdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Brands/Views/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmRzXFZpZXdzXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Car/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Car/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Car/Deletep.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyXERlbGV0ZXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Car/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Car/IndexToUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyXEluZGV4VG9VcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Car/RentCar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyXFJlbnRDYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Car/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyXFJlc3VsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Car/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Drives/Views/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHJpdmVzXFZpZXdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Drives/Views/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHJpdmVzXFZpZXdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Drives/Views/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHJpdmVzXFZpZXdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Drives/Views/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHJpdmVzXFZpZXdzXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Fuels/Fuel/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVlbHNcRnVlbFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Fuels/Fuel/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVlbHNcRnVlbFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Fuels/Fuel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVlbHNcRnVlbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Fuels/Fuel/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVlbHNcRnVlbFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Home/ManageCars.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxNYW5hZ2VDYXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Home/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Home/View1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxWaWV3MS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Insurances/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdXJhbmNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Insurances/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdXJhbmNlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Insurances/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdXJhbmNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Insurances/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdXJhbmNlc1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/RentInfo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVudEluZm9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/RentInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVudEluZm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/RentInfo/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVudEluZm9cVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Status/Views/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdHVzXFZpZXdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Status/Views/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdHVzXFZpZXdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Status/Views/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdHVzXFZpZXdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Status/Views/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdHVzXFZpZXdzXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Transmissions/Views/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbnNtaXNzaW9uc1xWaWV3c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Transmissions/Views/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbnNtaXNzaW9uc1xWaWV3c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Transmissions/Views/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbnNtaXNzaW9uc1xWaWV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Transmissions/Views/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbnNtaXNzaW9uc1xWaWV3c1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Vehicle/Views/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZVxWaWV3c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Vehicle/Views/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZVxWaWV3c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Vehicle/Views/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZVxWaWV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Vehicle/Views/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZVxWaWV3c1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alina/Desktop/Test/CarApp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-s4utkfjtps
+
+[C:/Users/Alina/Desktop/Test/CarApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-w0zzaq1u1i

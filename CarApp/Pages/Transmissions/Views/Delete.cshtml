@@ -1,0 +1,31 @@
+﻿@using CarApp.Pages.Transmissions
+@model Transmission
+
+<form method="post" asp-controller="Transmission" asp-action="DeletePOST" style="border: 1px solid white; padding: 3px; margin-top: 4px;">
+
+    <input asp-for="TransmissionId" class="form-control" hidden />
+    <div class="border p-3 mt-4">
+        <div class="roe pb-2">
+            <h2 class="text-primary"> Delete Transmission Type</h2>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Type"></label>
+            <input asp-for="Type" disabled class="form-control" />
+            <span asp-validation-for="Type" class="text-danger"></span>
+
+        </div>
+        
+
+
+        <input asp-for="TransmissionId" class="form-control" type="hidden" />
+
+
+
+        <button type="submit" class="btn btn-primary" style="width:150px;">Delete</button>
+        <a asp-controller="Transmission" asp-action="Index" class="btn btn-secondary" style="width:150px">
+            Back to List
+        </a>
+
+    </div>
+</form>
+

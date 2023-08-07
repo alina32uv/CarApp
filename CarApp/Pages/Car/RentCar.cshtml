@@ -1,0 +1,62 @@
+﻿@using CarApp.Pages.RentInfo
+@model RentModel
+
+
+
+
+
+
+<section class="py-5" style="background-color:white">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <div class="row m-sm-0">
+
+                    <div class="col-sm-12 order-1 order-sm-2">
+                       
+                            <div class="swiper-wrapper" style="margin-top:30px; ">
+                                <img class="img-fluid mt-4 ml-8" style="background: #FFF; 
+box-shadow: 10px 9px 21px 0px rgba(0, 0, 0, 0.25);" src="/img/@Model.Car.Image" alt="..."></a>
+                            </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 ">
+                <form method="post" enctype="multipart/form-data" asp-controller="Car" asp-action="RentCar">
+                    <h1 style="color: #1F232A">@Model.Car.Name</h1>
+                <p class="text-muted lead">$@Model.Car.DailyPrice / Day</p>
+                <div class="row align-items-stretch mb-4">
+                   <br>
+                <ul class="list-unstyled small d-inline-block">
+                            <li class="px-3 py-2 mb-1 " style="background-color:#D9E3F1"><strong class="text-uppercase">Year:</strong><span class="ms-2 text-muted" style="color:black; font-size:16px">&nbsp;&nbsp;@Model.Car.Year</span></li>
+                            <li class="px-3 py-2 mb-1 text-muted" style="color:black; font-size:16px; background-color:#D9E3F1;"><strong class="text-uppercase text-dark">Vehicle Type:</strong>&nbsp;&nbsp;@Model.Car.VehicleType.Name</li>
+                            <li class="px-3 py-2 mb-1  text-muted" style="color:black; font-size:16px; background-color:#D9E3F1;"><strong class="text-uppercase text-dark">Car Body Type:</strong>&nbsp;&nbsp;@Model.Car.CarBodyType.Name</li>
+                            <li class="px-3 py-2 mb-1 text-muted" style="color:black; font-size:16px; background-color:#D9E3F1"><strong class="text-uppercase text-dark">Transmission Type:</strong>&nbsp;&nbsp;@Model.Car.Transmission.Type</li>
+                            <li class="px-3 py-2 mb-1  text-muted" style="color:black; font-size:16px; background-color:#D9E3F1"><strong class="text-uppercase text-dark">Fuel Type:</strong>&nbsp;&nbsp;@Model.Car.Fuel.Name</li>
+                            <li class="px-3 py-2 mb-1  text-muted" style="color:black; font-size:16px; background-color:#D9E3F1;">
+                                <strong for="dateBring" class="text-uppercase text-dark">Date/time pick-up car:</strong>&nbsp;&nbsp;
+                            <input type="datetime-local" name="dateBring" id="dateBring" value="@Model.DateBring.ToString("yyyy-MM-ddTHH:mm")" required /></li>
+                            <li class="px-3 py-2 mb-1  text-muted" style="color:black; font-size:16px; background-color:#D9E3F1">
+                            <strong for="dateReturn" class="text-uppercase text-dark">Date/time return car:</strong>&nbsp;&nbsp;
+                            <input type="datetime-local" name="dateReturn" id="dateReturn" value="@Model.DateReturn.ToString("yyyy-MM-ddTHH:mm")" required />
+                            <input asp-for="CarId" class="form-control" type="hidden" />
+                        </li>
+                            <input type="hidden" name="UserId" value="@Model.UserId" />
+
+                            <input type="hidden" name="CarId" value="@Model.Car.CarId" />
+                    </ul>
+            </div>
+                    <div class="col-sm-3 pl-sm-0">
+                        <input class="btn btn-dark " style="border-radius: 35px; color:white;
+                            background: linear-gradient(131deg, #3D4553 0%, rgba(3, 4, 4, 0.85) 100%);
+                            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); width:100px; margin-top:-20px;" type="submit" value="Book" />
+                    </div>
+                </form>
+               
+        </div>
+
+
+
+    </div>
+</section>

@@ -1,0 +1,200 @@
+﻿@using CarApp.Pages.Car
+
+@model List<Car>
+
+
+<section class="py-5">
+          <div class="container p-0">
+            <div class="row">
+             
+              <div class="col-lg-3 order-2 order-lg-1">
+                <h5 class="text-uppercase mb-4">Categories</h5>
+               
+                
+                <form method="get" enctype="multipart/form-data" asp-controller="Car" asp-action="FilterCars2">
+                    <div style="background-color:white; box-shadow: 10px 9px 21px 0px rgba(0, 0, 0, 0.25);
+">
+                    <div class="py-2 px-4 bg-dark text-white mb-3"><strong class="small text-uppercase fw-bold">Vehicle Type</strong></div>
+                    
+                    @foreach (var vehicleType in Model.Select(vehicleType => vehicleType.VehicleType).Distinct().ToList())
+                    {
+                            <div class="form-check mb-1" style="padding-left:40px; padding-bottom:10px; color: #815A7F;">
+                            <input class="form-check-input" type="checkbox" name="vehicleTypes" value="@vehicleType.VehicleId" >
+                                <label class="form-check-label" style="color: #3D4553;  font-size:16px; text-shadow: 2px 4px 11px 0px rgba(0, 0, 0, 0.25);" asp-for="@vehicleType.VehicleId">@vehicleType.Name</label>
+                        </div>
+                    }
+                    </div>
+               <br />
+                    <div style="background-color:white; box-shadow: 10px 9px 21px 0px rgba(0, 0, 0, 0.25);">
+                <div class="py-2 px-4 bg-dark text-white mb-3"><strong class="small text-uppercase fw-bold">Car Body Type</strong></div>
+                       
+                    @foreach (var body in Model.Select(body => body.CarBodyType).Distinct())
+                {
+                            <div class="form-check mb-1" style="padding-left:40px; padding-bottom:10px; color: #815A7F;">
+                                <input class="form-check-input" type="checkbox" name="carBodyTypes" style="color: #3D4553;  text-shadow: 2px 4px 11px 0px rgba(0, 0, 0, 0.25);"
+                                       value="@body.CarBodyTypeId">
+                                <label class="form-check-label" style="color: #3D4553; font-size:16px; text-shadow: 2px 4px 11px 0px rgba(0, 0, 0, 0.25);" asp-for="@body.CarBodyTypeId"><b>@body.Name</b></label>
+                    </div>
+                    }
+                       
+                    </div>
+                    <br />
+
+                    <div style="background-color:white; box-shadow: 10px 9px 21px 0px rgba(0, 0, 0, 0.25);
+">
+                        <div class="py-2 px-4 bg-dark text-white mb-3"><strong class="small text-uppercase fw-bold">Brand</strong></div>
+
+                        @foreach (var brand in Model.Select(car => car.Brand).Distinct().ToList())
+                        {
+                            <div class="form-check mb-1" style="padding-left:40px; padding-bottom:10px; color: #815A7F;">
+                                <input class="form-check-input" type="checkbox" name="Brands" value="@brand.BrandId">
+                                <label class="form-check-label" style="color:  #3D4553; font-size:16px; text-shadow: 2px 4px 11px 0px rgba(0, 0, 0, 0.25);" asp-for="@brand.BrandId">@brand.Name</label>
+                            
+                            </div>
+                        }
+                    </div>
+
+                    <br />
+
+                    <div style="background-color:white; box-shadow: 10px 9px 21px 0px rgba(0, 0, 0, 0.25);
+">
+                        <div class="py-2 px-4 bg-dark text-white mb-3"><strong class="small text-uppercase fw-bold">Fuel Type</strong></div>
+
+                        @foreach (var fuel in Model.Select(car => car.Fuel).Distinct().ToList())
+                        {
+                            <div class="form-check mb-1" style="padding-left:40px; padding-bottom:10px; color: #815A7F;">
+                                <input class="form-check-input" type="checkbox" name="fuelTypes" value="@fuel.FuelId">
+                                <label class="form-check-label" style="color:  #3D4553; font-size:16px; text-shadow: 2px 4px 11px 0px rgba(0, 0, 0, 0.25);" asp-for="@fuel.FuelId">@fuel.Name</label>
+                            </div>
+                        }
+                    </div>
+
+
+                    <br />
+
+                    <div style="background-color:white; box-shadow: 10px 9px 21px 0px rgba(0, 0, 0, 0.25);
+">
+                        <div class="py-2 px-4 bg-dark text-white mb-3"><strong class="small text-uppercase fw-bold"> Drive Type</strong></div>
+
+                        @foreach (var drive in Model.Select(car => car.Drive).Distinct().ToList())
+                        {
+                            <div class="form-check mb-1" style="padding-left:40px; padding-bottom:10px; color: #815A7F;">
+                                <input class="form-check-input" type="checkbox" name="driveTypes" value="@drive.DriveId">
+                                <label class="form-check-label" style="color:  #3D4553; font-size:16px; text-shadow: 2px 4px 11px 0px rgba(0, 0, 0, 0.25);" asp-for="@drive.DriveId">@drive.Name</label>
+                            </div>
+                        }
+                    </div>
+
+                    <br />
+
+                    <div style="background-color:white; box-shadow: 10px 9px 21px 0px rgba(0, 0, 0, 0.25);
+">
+                        <div class="py-2 px-4 bg-dark text-white mb-3"><strong class="small text-uppercase fw-bold">Transmission Type</strong></div>
+
+                        @foreach (var transmission in Model.Select(car => car.Transmission).Distinct().ToList())
+                        {
+                            <div class="form-check mb-1" style="padding-left:40px; padding-bottom:10px; color: #815A7F;">
+                                <input class="form-check-input" type="checkbox" name="transmissionTypes" value="@transmission.TransmissionId">
+                                <label class="form-check-label" style="color:  #3D4553; font-size:16px; text-shadow: 2px 4px 11px 0px rgba(0, 0, 0, 0.25);" asp-for="@transmission.TransmissionId">@transmission.Type</label>
+                            </div>
+                        }
+                    </div>
+
+
+                    <br />
+                    <button type="submit" class="btn btn-info " style="border-radius: 35px; color:white;
+                            background: linear-gradient(131deg, #3D4553 0%, rgba(3, 4, 4, 0.85) 100%);
+                            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);">
+                        View
+                    </button>
+
+                </form>
+                </div>
+
+
+            
+
+
+              <div class="col-lg-9 order-1 order-lg-2 mb-5 mb-lg-0">
+                  
+ 
+                <div class="form-group  col-md-4 ">
+
+                        <label class="form-label " for="sortBy">Sort by</label>
+                        <select class="form-select col-md-3" name="sortBy" id="sortBy" onchange="sortCars()">
+                        <option value="">Default sorting</option>
+                        <option value="Price1">Sorting by price: low to high</option>
+                        <option value="Price2">Sorting by price: high to low</option>
+                        <option value="Year1">Sorting by year: latest to oldest</option>
+                        <option value="Year2">Sorting by year: oldest to latest</option>
+                    </select>
+                    <span class="text-danger"></span>
+                    <br />
+                </div>
+                   
+                <div class="row">
+                    @foreach (var car in Model)
+                    {
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="product text-center " style="background-color:white">
+                                <div class="mb-3 position-relative">
+                                    <div class="badge text-white bg-"></div><a class="d-block"><img class="img-fluid w-100" style="height:200px;" src="/img/@car.Image" alt="..."></a>
+                                    <div class="product-overlay">
+                                        <ul class="mb-0 list-inline">
+                                            <li class="list-inline-item m-0 p-0">
+
+                                                <a class="btn btn-sm btn-dark" style="border-radius: 35px;
+background: linear-gradient(131deg, #3D4553 0%, rgba(3, 4, 4, 0.85) 100%);
+ color: white; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); width:60px" asp-area="" asp-controller="Car" asp-action="RentCar"
+                       asp-route-carId="@car.CarId">Book</a>
+
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5><a style="text-decoration:none; font-weight:bold; color: #31353A;">@car.Name @car.ModelName</a></h5>
+                                    <div class="courses-date" style="margin-top:10px;" >
+                                        <span title="Body Type"><i class="bi bi-car-front-fill"></i> @car.CarBodyType.Name</span>&nbsp;
+                                        <span title="Seats"><i class="bi bi-people-fill"></i> @car.Seats</span>&nbsp;
+                                        <span title="Vehicle Type"><i class="bi bi-truck-front-fill"></i> @car.VehicleType.Name</span>
+                                        <span title="Car"><i class="bi bi-calendar-fill"></i> @car.Year
+
+                        </span>
+                                    </div>
+                                    <center>
+                                        <div style="border-radius:15px; background-color:#79818F; width:200px; ">
+                                    <p style="color:white;text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.22); margin-top:7px;" class="lead">@car.DailyPrice $/Day </p>
+                                        </div>
+                                    </center>
+                                    <p style="margin-top:-10px;"><i class="bi bi-sliders2-vertical"></i>&nbsp;@car.Transmission.Type &nbsp;/&nbsp;<i class="bi bi-fuel-pump-fill"></i>&nbsp;@car.Fuel.Name &nbsp;/&nbsp;<i class="bi bi-fan"></i>&nbsp;@car.Drive.Name </p>
+                                    @if (car.DailyPrice > 100)
+                                    {
+                                        <p style="margin-top:-10px; color:indianred">Casco Insurance</p>
+                                    }
+                                    else
+                                    {
+                                        <p style="margin-top:-10px; color:mediumseagreen">Sample RCA Insurance</p>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                  }
+
+
+                    
+              
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </section>
+<script>
+    function sortCars() {
+        var sortBy = document.getElementById('sortBy').value;
+        location.href = '/Car/Index?sortBy=' + sortBy;
+    }
+</script>

@@ -1,0 +1,42 @@
+﻿@using CarApp.Pages.RentInfo
+
+@model RentInfo
+
+<form method="post" asp-controller="RentInfo" asp-action="Update" style="border: 1px solid white; padding: 3px; margin-top: 4px;">
+    <div class="border p-3 mt-4">
+        <div class="roe pb-2">
+            <h2 class="text-primary"> Edit Order</h2>
+        </div>
+        <div class="mb-3">
+           
+             
+            
+
+            <label asp-for="StatusId">Status</label>
+            <select asp-for="StatusId" class="form-control">
+                <option value="">Select status</option>
+                @foreach (var status in ViewBag.DistinctStatuses)
+                {
+                    <option value="@status.StatusId">@status.Name</option>
+                   
+                }
+            </select>
+            <span asp-validation-for="StatusId" class="text-danger"></span>
+
+        </div>
+
+
+        
+        <input asp-for="CarId" class="form-control" type="hidden" />
+        <input asp-for="UserId" class="form-control" type="hidden" />
+        <input asp-for="StatusId" class="form-control" type="hidden" />
+
+        <input asp-for="RentInfoId" class="form-control" type="hidden" />
+        <button type="submit" class="btn btn-primary" style="width:150px;">Update</button>
+        <a asp-controller="RentInfo" asp-action="Index" class="btn btn-secondary" style="width:150px">
+            Back to List
+        </a>
+
+    </div>
+</form>
+

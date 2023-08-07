@@ -1,0 +1,22 @@
+﻿@using CarApp.Pages.Transmissions
+@model Transmission
+
+<form method="post" style="border: 1px solid white; padding: 3px; margin-top: 4px;">
+    <div class="border p-3 mt-4">
+        <div class="roe pb-2">
+            <h2 class="text-primary"> Create Transmission Type</h2>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Type"></label>
+            <input asp-for="Type" class="form-control" />
+            <span asp-validation-for="Type" class="text-danger"></span>
+
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:150px;">Create</button>
+        <a asp-controller="Transmission" asp-action="Index" class="btn btn-secondary" style="width:150px">
+            Back to List
+        </a>
+
+    </div>
+</form>
+

@@ -1,0 +1,23 @@
+﻿@using CarApp.Entities;
+@using CarApp.Pages.Fuels
+@model Fuel
+
+<form method="post" style="border: 1px solid white; padding: 3px; margin-top: 4px;">
+    <div class="border p-3 mt-4">
+        <div class="roe pb-2">
+            <h2 class="text-primary"> Create Fuel Type</h2>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:150px;">Create</button>
+        <a asp-controller="Fuel" asp-action="Index" class="btn btn-secondary" style="width:150px">
+            Back to List
+        </a>
+
+    </div>
+</form>
+

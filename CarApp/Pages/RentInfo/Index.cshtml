@@ -1,0 +1,56 @@
+﻿@using CarApp.Pages.RentInfo
+
+@model List<RentInfo>
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary"> Customer's Orders List </h2>
+        </div>
+       
+    </div>
+</div>
+<div>
+    <table class="table table-hover table-bordered table-striped align-middle" style="width:100%;  color:#465265">
+        <thead>
+            <tr>
+                <th scope="col" style="color:#272C42; font-weight:1000">Customer</th>
+                <th scope="col" style="color:#272C42;">Car</th>
+                <th scope="col" style="color:#272C42;">Pick-up Date</th>
+                <th scope="col" style="color:#272C42;">Return Date</th>
+                <th scope="col" style="color:#272C42;">Status</th>
+                <th></th>
+            </tr>
+        </thead> 
+        <tbody>
+            @foreach (var order in Model)
+            {
+              
+                <tr>
+                    <td >@ViewBag.UserName</td>
+                    <td>@order.Car.Name @order.Car.ModelName</td>
+                    <td >@order.DateBring</td>
+                    <td >@order.DateReturn</td>
+                    <td>@order.Status.Name</td>
+                    <td>
+                        <div class="w-75 btn-group" role="group">
+                            <a asp-controller="RentInfo" asp-action="Update" asp-route-id="@order.RentInfoId" class="btn btn-outline-light">
+
+                                <i class="bi bi-pencil-square"></i>
+                                Edit
+                            </a>
+
+                            <a asp-controller="RentInfo" asp-action="Delete" asp-route-id="@order.RentInfoId" class="btn btn-outline-danger">
+
+                                <i class="bi bi-trash3-fill"></i>
+                                Delete
+                            </a>
+                        </div>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>

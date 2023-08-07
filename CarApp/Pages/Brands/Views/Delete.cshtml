@@ -1,0 +1,32 @@
+﻿@using CarApp.Pages.Brands
+
+@model Brand
+
+<form method="post" asp-controller="Rand" asp-action="DeletePOST" style="border: 1px solid white; padding: 3px; margin-top: 4px;">
+
+    <input asp-for="BrandId" class="form-control" hidden />
+    <div class="border p-3 mt-4">
+        <div class="roe pb-2">
+            <h2 class="text-primary"> Delete Brand</h2>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" disabled class="text-danger"></span>
+
+        </div>
+
+
+
+        <input asp-for="BrandId" class="form-control" type="hidden" />
+
+
+
+        <button type="submit" class="btn btn-primary" style="width:150px;">Delete</button>
+        <a asp-controller="Rand" asp-action="Index" class="btn btn-secondary" style="width:150px">
+            Back to List
+        </a>
+
+    </div>
+</form>
+

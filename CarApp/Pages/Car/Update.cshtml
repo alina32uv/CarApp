@@ -1,0 +1,147 @@
+﻿@using CarApp.Pages.Car
+
+@model CarViewModel;
+
+
+<form method="post"  enctype="multipart/form-data" style="border: 1px solid white; padding: 3px; margin-top: 4px;">
+    <div class="border p-3 mt-4">
+        <div class="roe pb-2">
+            <h2 class="text-primary"> Update Car</h2>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+
+            <label asp-for="ModelName"></label>
+            <input asp-for="ModelName" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+
+        </div>
+        <div class="mb-3">
+
+            <label asp-for="Seats"></label>
+            <input asp-for="Seats" class="form-control" />
+            <span asp-validation-for="Seats" class="text-danger"></span>
+
+        </div>
+        <div class="mb-3">
+
+            <label asp-for="FuelId">Fuel</label>
+            <select asp-for="FuelId" class="form-control">
+                <option value="">Select a fuel type</option>
+                @foreach (var fuel in Model.Fuels)
+                {
+                    <option value="@fuel.FuelId">@fuel.Name</option>
+                }
+            </select>
+            <span asp-validation-for="FuelId" class="text-danger"></span>
+
+
+        </div>
+        <div class="mb-3">
+
+            <label asp-for="DriveId">Drive</label>
+            <select asp-for="DriveId" class="form-control">
+                <option value="">Select a drive type</option>
+                @foreach (var drive in Model.Drives)
+                {
+                    <option value="@drive.DriveId">@drive.Name</option>
+                }
+            </select>
+            <span asp-validation-for="DriveId" class="text-danger"></span>
+
+
+        </div>
+        <div class="mb-3">
+
+            <label asp-for="DailyPrice"></label>
+            <input asp-for="DailyPrice" class="form-control" />
+            <span asp-validation-for="DailyPrice" class="text-danger"></span>
+
+        </div>
+        <div class="mb-3">
+
+            <label asp-for="Year"></label>
+            <input asp-for="Year" class="form-control" />
+            <span asp-validation-for="Year" class="text-danger"></span>
+
+        </div>
+        <div class="mb-3">
+             
+            <label asp-for="CarBodyTypeId">Car Body Type</label>
+            <select asp-for="CarBodyTypeId" class="form-control">
+                <option value="">Select a car body type</option>
+                @foreach (var body in Model.carBodyTypes)
+                {
+                    <option value="@body.CarBodyTypeId">@body.Name</option>
+                }
+            </select>
+            <span asp-validation-for="CarBodyTypeId" class="text-danger"></span>
+
+
+        </div>
+        <div class="mb-3">
+
+            <label asp-for="VehicleTypeId">Vehicle Type</label>
+            <select asp-for="VehicleTypeId" class="form-control">
+                <option value="">Select a vehicle type</option>
+                @foreach (var vehicle in Model.vehicleTypes)
+                {
+                    <option value="@vehicle.VehicleId">@vehicle.Name</option>
+                }
+            </select>
+            <span asp-validation-for="VehicleTypeId" class="text-danger"></span>
+
+
+        </div>
+        <div class="mb-3">
+
+            <label asp-for="BrandId">Brand</label>
+            <select asp-for="BrandId" class="form-control">
+                <option value="">Select a brand</option>
+                @foreach (var brand in Model.Brands)
+                {
+                    <option value="@brand.BrandId">@brand.Name</option>
+                }
+            </select>
+            <span asp-validation-for="FuelId" class="text-danger"></span>
+
+        </div>
+        <div class="mb-3">
+
+            <label asp-for="TransmissionId">Transmission</label>
+            <select asp-for="TransmissionId" class="form-control">
+                <option value="">Select a transmission type</option>
+                @foreach (var transmission in Model.Transmissions)
+                {
+                    <option value="@transmission.TransmissionId">@transmission.Type</option>
+                }
+            </select>
+            <span asp-validation-for="FuelId" class="text-danger"></span>
+
+
+        </div>
+        <div class="mb-3">
+            <label asp-for="Image"></label>
+            <input type="file" asp-for="Image" class="form-control" />
+            <span asp-validation-for="Image" class="text-danger"></span>
+        </div>
+        <input asp-for="CarId" class="form-control" type="hidden" />
+        <input asp-for="BrandId" class="form-control" type="hidden" />
+        <input asp-for="FuelId" class="form-control" type="hidden" />
+        <input asp-for="DriveId" class="form-control" type="hidden" />
+        <input asp-for="CarBodyTypeId" class="form-control" type="hidden" />
+        <input asp-for="VehicleTypeId" class="form-control" type="hidden" />
+        <input asp-for="TransmissionId" class="form-control" type="hidden" />
+
+        <button type="submit"  class="btn btn-primary" style="width:150px;">Update</button>
+        <a asp-controller="Car" asp-action="IndexToUpdate" class="btn btn-secondary" style="width:150px">
+            Back to List
+        </a>
+
+    </div>
+</form>
+

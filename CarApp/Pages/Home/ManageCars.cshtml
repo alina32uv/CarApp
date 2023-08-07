@@ -1,0 +1,62 @@
+﻿@using CarApp.Pages.Car
+
+@model CarViewModel;
+
+
+<form method="get" enctype="multipart/form-data" asp-controller="Car" asp-action="FilterCars"  style=" border: 2px solid #CDB595;
+ border-radius:15px;
+  padding-left: 40px; padding-bottom:20px">
+    <a asp-controller="Car" asp-action="Create" class="btn btn-outline-danger col-3 " style="border-radius:10px; display: inline-block;  color:white;
+       background: linear-gradient(131deg, #3D4553 0%, rgba(3, 4, 4, 0.85) 100%);
+       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);">
+       Add A New Car
+    </a> &nbsp;&nbsp;
+    
+
+     <div class="form-group  col-md-4 " style="display: inline-block; ">
+
+        <label asp-for="VehicleTypeId" class="form-label mt-4">Vew Cars By Category</label>
+        <select asp-for="VehicleTypeId" class="form-select col-md-3" name="vehicleId">
+           
+            @foreach (var type in Model.vehicleTypes)
+            {
+                <option value="@type.VehicleId">@type.Name</option>
+            }
+        </select>
+        <span asp-validation-for="VehicleTypeId" class="text-danger"></span>
+
+
+    </div>
+    <div class="form-group  col-md-4 " style="display: inline-block;">
+
+        <label asp-for="CarBodyTypeId" class="form-label mt-4">Vew Cars By Car Body Type</label>
+        <select asp-for="CarBodyTypeId" class="form-select col-md-3" name="bodyId">
+
+            @foreach (var type in Model.carBodyTypes)
+            {
+                <option value="@type.CarBodyTypeId">@type.Name</option>
+            }
+        </select>
+        <span asp-validation-for="CarBodyTypeId" class="text-danger"></span>
+
+
+    </div>
+
+    <br />
+    <br />
+    <button asp-area="" asp-controller="Car" asp-action="IndexToUpdate" class="btn btn-outline-danger col-3 " style="border-radius:10px; display: inline-block;  color:white;
+       background: linear-gradient(131deg, #3D4553 0%, rgba(3, 4, 4, 0.85) 100%);
+       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);" >
+        View All Cars
+    </button>
+    <button type="submit" class="btn btn-outline-danger col-3 " style="border-radius:10px; display: inline-block;  color:white;
+       background: linear-gradient(131deg, #3D4553 0%, rgba(3, 4, 4, 0.85) 100%);
+       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);" style="width:150px;">
+        View Sorted Cars
+    </button>
+
+ 
+
+</form>
+
+
